@@ -1,3 +1,29 @@
 // Place all the styles related to the StaticPages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.static_page_content{
+	border-radius: 10px;
+	margin: 100px auto;
+	height: 500px;
+	width: 90%;
+	background-position: center;
+	border: 5px solid #346898;
+	box-shadow: 10px 10px 5px #0d1a26;
+	text-align: center;
+	background-color: #fff;
+}
+
+.static_page_content h1{
+	color: #b38f00;
+	font-size: 5em;
+	text-shadow: 2px 2px 2px #4d3d00;
+}
+
+.static_page_content p{
+	color: #004d00;
+	font-size: 2em;
+	font-style: italic;
+	font-family: sans-serif;
+}

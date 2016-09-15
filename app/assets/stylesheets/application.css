@@ -13,3 +13,101 @@
  *= require_tree .
  *= require_self
  */
+
+#background{
+	background-color: #fff2cc;
+	align-items: center;
+}
+
+
+/*Header*/
+
+.header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 50px
+}
+
+#logo {
+	float: left;
+  	padding: 14px;
+  	font-size: 1.7em;
+  	color: #1aff66;
+  	text-transform: uppercase;
+  	text-align: center;
+  	letter-spacing: -1px;
+  	font-weight: bold;
+  	text-decoration: none;
+  	transition: 1s;
+  	-webkit-transition: 1s
+}
+
+#logo:hover{
+	color: lightblue;
+	letter-spacing: 5px;
+	text-shadow: 2px 2px 1px #00e6e6
+}
+
+.header div {
+	display: block;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #003333;
+    height: 50
+}
+
+.header ul {
+	float: right;
+	height: 50;
+	margin: 0;
+	padding: 0
+}
+
+.header li {
+	display: block;
+    float: left;
+}
+
+.header li a{
+	display: inline-block;
+	font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.header li a:hover:not(.active) {
+    background-color: #009999;
+    text-shadow: 2px 2px 1px #00e6e6
+}
+
+/*Footer*/
+
+.footer {
+	padding-top: 100px;
+	height: 120px;
+	text-align: center;
+}
+
+
+
+.footer img {
+	height: 100px;
+	width: 50;
+	float: left;
+}
+
+.footer li {
+	padding: 10px;
+	display: inline;
+}
+
+.footer li a{
+	color: #009999
+}
