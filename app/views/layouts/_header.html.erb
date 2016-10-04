@@ -1,9 +1,9 @@
 <header class="header">
 	<div id="header_container">
-		<%= link_to "sample app", '#', id: "logo" %>
+		<%= link_to "sample app", root_path, id: "logo" %>
 		<ul class="">
-			<li><%= link_to "HOME",controller: 'static_pages',action: 'home'    %></li>
-            <li><%= link_to "HELP",controller: 'static_pages',action: 'help' %></li>
+			<li><%= link_to "HOME", root_path   %></li>
+            <li><%= link_to "HELP",help_path %></li>
 		</ul>
 	</div>
 </header>
